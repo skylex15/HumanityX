@@ -3,11 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Page</title>
+    <title>HumanityX - Charity Through Crypto</title>
+    <!-- Precompiled Tailwind CSS (v2.2.19) -->
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <p>If you see this, your basic HTML file is working.</p>
-  </body>
-</html>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-purple-700">HumanityX</h1>
+        <nav class="space-x-4 text-sm font-medium">
+          <a href="#about" class="hover:text-purple-600">About</a>
+          <a href="#charity" class="hover:text-purple-600">Charity</a>
+          <a href="#governance" class="hover:text-purple-600">Governance</a>
+          <a href="#whitepaper" class="hover:text-purple-600">Whitepaper</a>
+          <a href="#contact" class="hover:text-purple-600">Contact</a>
+        </nav>
+      </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-4">Empowering Humanity Through Blockchain</h2>
+        <p class="text-lg mb-6">HumanityX is a charitable cryptocurrency dedicated to food drives, shelters, and global outreach.</p>
+        <a href="#whitepaper" class="bg-white text-purple-700 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-100">Read the Whitepaper</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">What is HumanityX?</h3>
+      <p class="text-gray-700 text-lg">
+        HumanityX ($HMX) is a deflationary token with a built-in charity mechanism that allocates funds to support humanitarian causes, including food drives, homeless shelters, and missionary work.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white text-center py-10">
+      <p>Contact us: <a href="mailto:contact@humanityxtoken.org" class="
